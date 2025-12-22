@@ -22,3 +22,9 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# AI
+claude  
+claude/
+gemini
+gemini/
