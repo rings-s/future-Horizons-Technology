@@ -8,15 +8,22 @@
 	let scrollY = $state(0);
 	let mouseX = $state(0);
 	let mouseY = $state(0);
+	let rafId: number | null = null;
 
 	onMount(() => {
 		mounted = true;
+		return () => {
+			if (rafId) cancelAnimationFrame(rafId);
+		};
 	});
 
 	function handleMouseMove(event: MouseEvent) {
-		// Smooth damping for mouse movement could be added here for extra polish
-		mouseX = (event.clientX / window.innerWidth - 0.5) * 2; // -1 to 1
-		mouseY = (event.clientY / window.innerHeight - 0.5) * 2; // -1 to 1
+		if (rafId) return; // Skip if frame pending
+		rafId = requestAnimationFrame(() => {
+			mouseX = (event.clientX / window.innerWidth - 0.5) * 2;
+			mouseY = (event.clientY / window.innerHeight - 0.5) * 2;
+			rafId = null;
+		});
 	}
 </script>
 

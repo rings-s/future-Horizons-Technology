@@ -1,7 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import '$lib/i18n';
-	import { locale, isLoading } from 'svelte-i18n';
+	import { locale } from 'svelte-i18n';
 	import Header from '$lib/components/header.svelte';
 	import HeroSection from '$lib/components/hero-section.svelte';
 	import MarqueeSection from '$lib/components/marquee-section.svelte';
@@ -22,28 +22,17 @@
 	}
 </script>
 
-{#if $isLoading}
-	<div class="min-h-screen bg-background flex items-center justify-center">
-		<div class="flex flex-col items-center gap-4">
-			<div
-				class="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"
-			></div>
-			<p class="text-muted-foreground">Loading...</p>
-		</div>
-	</div>
-{:else}
-	<main class="min-h-screen bg-background">
-		<Header />
-		<HeroSection />
-		<MarqueeSection />
-		<FeaturesSection />
-		<StatsSection />
-		<AboutSection />
-		<ServicesSection />
-		<ProductsSection />
-		<ValuesSection />
-		<ClientsSection />
-		<ContactSection />
-		<Footer />
-	</main>
-{/if}
+<main class="min-h-screen bg-background">
+	<Header />
+	<HeroSection />
+	<MarqueeSection />
+	<FeaturesSection />
+	<StatsSection />
+	<AboutSection />
+	<ServicesSection />
+	<ProductsSection />
+	<ValuesSection />
+	<ClientsSection />
+	<ContactSection />
+	<Footer />
+</main>

@@ -14,6 +14,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="preload" as="image" href="/hero-device.png" fetchpriority="high" />
 </svelte:head>
 
 {@render children()}
