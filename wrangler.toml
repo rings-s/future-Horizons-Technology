@@ -1,6 +1,7 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "future-horizons-technology"
-compatibility_date = "2024-04-01"
+# wrangler.toml
+name = 'futurehorizonstechnology'
+compatibility_date = "2025-12-22"
 pages_build_output_dir = "build"
 
 [vars]
