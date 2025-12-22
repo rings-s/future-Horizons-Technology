@@ -1,0 +1,243 @@
+{
+    "nav": {
+        "about": "About",
+        "services": "Services",
+        "products": "Products",
+        "values": "Values",
+        "clients": "Clients",
+        "contact": "Contact",
+        "getQuote": "Get a Quote"
+    },
+    "hero": {
+        "badge": "Established 2025 in Madinah",
+        "title1": "Future",
+        "title2": "Horizons",
+        "title3": "Technology",
+        "subtitle": "for the Future of Business",
+        "description": "Experience the convergence of digital innovation and physical precision. We engineer printing solutions that power the modern enterprise.",
+        "cta1": "Start Transformation",
+        "cta2": "View Showreel",
+        "iso": "ISO 9001 Certified",
+        "support": "24/7 Rapid Support"
+    },
+    "features": {
+        "badge": "Why Choose Us",
+        "title": "Comprehensive",
+        "titleHighlight": "Solutions",
+        "subtitle": "End-to-end printing and copying services designed to enhance your business efficiency with precision and reliability.",
+        "salesRental": {
+            "title": "Sales & Rental",
+            "description": "Premium copiers and printers available for purchase or flexible rental agreements."
+        },
+        "maintenance": {
+            "title": "Expert Maintenance",
+            "description": "Preventive and corrective maintenance by certified technicians with rapid response."
+        },
+        "parts": {
+            "title": "Genuine Parts",
+            "description": "Original and high-quality alternative spare parts ensuring optimal performance."
+        },
+        "support247": {
+            "title": "24/7 Support",
+            "description": "Round-the-clock technical support and emergency repair services."
+        },
+        "contracts": {
+            "title": "Service Contracts",
+            "description": "Comprehensive maintenance contracts for enterprise fleet management."
+        },
+        "solutions": {
+            "title": "Smart Solutions",
+            "description": "Advanced print management and cost control technology solutions."
+        },
+        "cta": "Need a custom solution for your business?",
+        "ctaLink": "Contact our experts"
+    },
+    "stats": {
+        "devices": {
+            "value": "100+",
+            "label": "Devices Serviced",
+            "description": "Printers & copiers maintained"
+        },
+        "clients": {
+            "value": "50+",
+            "label": "Business Clients",
+            "description": "Trusted partnerships"
+        },
+        "support": {
+            "value": "24/7",
+            "label": "Technical Support",
+            "description": "Always available"
+        },
+        "satisfaction": {
+            "value": "99%",
+            "label": "Client Satisfaction",
+            "description": "Exceptional service"
+        }
+    },
+    "about": {
+        "badge": "About Us",
+        "title": "Future Horizons",
+        "titleHighlight": "Technology",
+        "p1": "Founded in 2025 in Madinah, we are a Saudi company specialized in supplying and maintaining copiers, printers, and their accessories. We provide integrated technical solutions that empower businesses to thrive.",
+        "p2": "Since our inception, we strive to be the first destination for integrated printing solutions in the Kingdom, combining technical expertise with exceptional customer service.",
+        "vision": {
+            "title": "Our Vision",
+            "description": "To be the leading provider of integrated printing solutions in Saudi Arabia through innovation and quality."
+        },
+        "mission": {
+            "title": "Our Mission",
+            "description": "Delivering superior devices and services ensuring sustainable performance and continuous support."
+        },
+        "satisfaction": "Satisfaction"
+    },
+    "services": {
+        "badge": "Our Expertise",
+        "title": "Comprehensive",
+        "titleHighlight": "Printing Solutions",
+        "subtitle": "We provide a full range of services covering all your printing and copying needs, from equipment supply to ongoing technical support.",
+        "salesRental": {
+            "title": "Sales & Rental",
+            "description": "Sales and rental of copiers and printers from leading brands with flexible payment options."
+        },
+        "supplies": {
+            "title": "Supplies",
+            "description": "Original and high-quality alternative inks and genuine spare parts with specifications."
+        },
+        "maintenance": {
+            "title": "Maintenance & Repair",
+            "description": "Comprehensive maintenance and repair services for all types of devices with quick response."
+        },
+        "installation": {
+            "title": "Installation & Setup",
+            "description": "Professional installation and operation of copiers and printers in your workspace."
+        },
+        "printManagement": {
+            "title": "Print Management",
+            "description": "Technical solutions for print management and cost control for enterprises."
+        },
+        "ongoingSupport": {
+            "title": "Ongoing Support",
+            "description": "Periodic maintenance contracts and continuous technical support services 24/7."
+        },
+        "learnMore": "Learn more"
+    },
+    "products": {
+        "badge": "Our Catalog",
+        "title": "Premium Equipment & Supplies",
+        "viewAll": "View All Products",
+        "multifunction": {
+            "category": "Multifunction Devices",
+            "title": "Copiers & Printers",
+            "description": "Copy / Print / Scan / Fax all-in-one solutions",
+            "feature1": "High-speed printing",
+            "feature2": "Network connectivity",
+            "feature3": "Cloud integration",
+            "feature4": "Energy efficient"
+        },
+        "consumables": {
+            "category": "Consumables",
+            "title": "Inks & Toners",
+            "description": "Original and certified alternative supplies",
+            "feature1": "Original inks",
+            "feature2": "High-quality alternatives",
+            "feature3": "Long-lasting",
+            "feature4": "Vivid colors"
+        },
+        "parts": {
+            "category": "Components",
+            "title": "Spare Parts",
+            "description": "Genuine parts with high specifications",
+            "feature1": "OEM quality",
+            "feature2": "Wide compatibility",
+            "feature3": "Fast delivery",
+            "feature4": "Warranty included"
+        },
+        "viewDetails": "View Details"
+    },
+    "values": {
+        "badge": "Core Values",
+        "title": "What Drives Us Forward",
+        "subtitle": "Our values are the foundation of everything we do, guiding our decisions and relationships with customers.",
+        "innovation": {
+            "title": "Innovation",
+            "description": "We constantly strive to develop new solutions that meet our customers' needs."
+        },
+        "quality": {
+            "title": "Quality",
+            "description": "We are committed to the highest standards of quality in products and services."
+        },
+        "transparency": {
+            "title": "Transparency",
+            "description": "We build our relationships on credibility and clarity in all dealings."
+        },
+        "commitment": {
+            "title": "Commitment",
+            "description": "We maintain punctuality and reliability in execution of all our promises."
+        },
+        "satisfaction": {
+            "title": "Customer Satisfaction",
+            "description": "Customer satisfaction is the foundation of our success and continuity."
+        }
+    },
+    "clients": {
+        "badge": "Our Clients",
+        "title": "Trusted Partners",
+        "subtitle": "We are proud of our collaboration with distinguished clients in various sectors, a testament to our commitment to providing high-quality products and services.",
+        "alquswa": {
+            "name": "Al-Quswa National Schools",
+            "sector": "Education Sector",
+            "testimonial": "Future Horizons Technology has been instrumental in managing our entire printing fleet. Their service is exceptional."
+        },
+        "talgo": {
+            "name": "Talgo International",
+            "sector": "Commercial Sector",
+            "testimonial": "Reliable, professional, and always available when we need them. A true partner in our operations."
+        },
+        "badge2": "Serving educational and commercial sectors across Saudi Arabia"
+    },
+    "contact": {
+        "badge": "Contact Us",
+        "title": "Let's Discuss Your",
+        "titleHighlight": "Project",
+        "subtitle": "Ready to optimize your printing solutions? Get in touch with us today for a free consultation and quote.",
+        "headquarters": "Headquarters",
+        "location": "Madinah, Saudi Arabia",
+        "phone": "Phone",
+        "phoneNumber": "014850000",
+        "email": "Email",
+        "emailAddress": "a.almokhtar@tam.net.sa",
+        "formTitle": "Send us a Message",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "John Doe",
+        "phoneLabel": "Phone Number",
+        "phonePlaceholder": "+966",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "john@example.com",
+        "message": "Message",
+        "messagePlaceholder": "How can we help you?",
+        "submit": "Send Message",
+        "whatsappTitle": "Chat on WhatsApp",
+        "whatsappSubtitle": "Need quick assistance? Chat directly with our team for instant support and inquiries.",
+        "whatsappButton": "Start Chat"
+    },
+    "footer": {
+        "tagline": "Your premier destination for comprehensive printing and copying solutions in Saudi Arabia. Empowering businesses with cutting-edge technology.",
+        "services": "Services",
+        "company": "Company",
+        "products": "Products",
+        "salesRental": "Sales & Rental",
+        "maintenance": "Maintenance",
+        "spareParts": "Spare Parts",
+        "technicalSupport": "Technical Support",
+        "aboutUs": "About Us",
+        "ourValues": "Our Values",
+        "clients": "Clients",
+        "contact": "Contact",
+        "copiers": "Copiers & Printers",
+        "inks": "Inks & Toners",
+        "accessories": "Accessories",
+        "copyright": "Future Horizons Technology. All rights reserved.",
+        "commercialReg": "Commercial Reg: 101010",
+        "location": "Madinah, KSA"
+    }
+}
