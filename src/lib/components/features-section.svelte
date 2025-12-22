@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { Printer, Wrench, Package, Headphones, Shield, Zap, ArrowUpRight } from 'lucide-svelte';
 	import { t } from 'svelte-i18n';
@@ -55,7 +55,7 @@
 	];
 
 	let isVisible = $state(false);
-	let sectionRef;
+	let sectionRef: HTMLElement;
 
 	onMount(() => {
 		const observer = new IntersectionObserver(
@@ -124,6 +124,7 @@
 		<!-- Features grid -->
 		<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
 			{#each features as feature, index}
+				{@const Icon = feature.icon}
 				<div
 					class="group relative p-8 rounded-3xl glass border border-white/5 hover:border-white/10 transition-all duration-500 hover:-translate-y-2 {isVisible
 						? 'opacity-100 translate-y-0'
@@ -141,7 +142,7 @@
 							<div
 								class="w-14 h-14 rounded-2xl bg-background/50 backdrop-blur-md border border-white/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-500 shadow-lg"
 							>
-								<svelte:component this={feature.icon} class="w-7 h-7 {feature.iconColor}" />
+								<Icon class="w-7 h-7 {feature.iconColor}" />
 							</div>
 							<div
 								class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-300"

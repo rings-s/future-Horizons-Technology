@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import {
 		ShoppingCart,
@@ -45,7 +45,7 @@
 	];
 
 	let isVisible = $state(false);
-	let sectionRef;
+	let sectionRef: HTMLElement | undefined;
 
 	onMount(() => {
 		const observer = new IntersectionObserver(
@@ -102,6 +102,7 @@
 		<!-- Services Grid -->
 		<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 			{#each services as service, index}
+				{@const Icon = service.icon}
 				<div
 					class="group p-8 rounded-3xl glass border border-white/5 hover:border-primary/20 hover:bg-white/5 transition-all duration-500 hover:-translate-y-2 {isVisible
 						? 'opacity-100 translate-y-0'
@@ -111,7 +112,7 @@
 					<div
 						class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-500"
 					>
-						<svelte:component this={service.icon} class="w-7 h-7 transition-colors" />
+						<Icon class="w-7 h-7 transition-colors" />
 					</div>
 					<h3
 						class="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors"

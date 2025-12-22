@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { ArrowRight, Play, ShieldCheck, Activity } from 'lucide-svelte';
 	import { t, locale } from 'svelte-i18n';
@@ -13,7 +13,7 @@
 		mounted = true;
 	});
 
-	function handleMouseMove(event) {
+	function handleMouseMove(event: MouseEvent) {
 		// Smooth damping for mouse movement could be added here for extra polish
 		mouseX = (event.clientX / window.innerWidth - 0.5) * 2; // -1 to 1
 		mouseY = (event.clientY / window.innerHeight - 0.5) * 2; // -1 to 1
@@ -303,10 +303,6 @@
 		100% {
 			transform: translateX(100%);
 		}
-	}
-
-	.animate-shimmer {
-		animation: shimmer 1.5s infinite;
 	}
 
 	.animate-gradient {

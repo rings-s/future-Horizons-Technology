@@ -54,9 +54,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-	.pause-animation:hover {
-		animation-play-state: paused;
-	}
-</style>

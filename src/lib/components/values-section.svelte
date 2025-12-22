@@ -88,6 +88,7 @@
 		<!-- Values -->
 		<div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
 			{#each values as value, index}
+				{@const Icon = value.icon}
 				<div
 					class="group p-6 rounded-3xl glass border border-white/5 hover:border-primary/20 hover:bg-white/5 transition-all duration-500 hover:-translate-y-2 {isVisible
 						? 'opacity-100 translate-y-0'
@@ -97,7 +98,7 @@
 					<div
 						class="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-500 shadow-lg"
 					>
-						<svelte:component this={value.icon} class="w-8 h-8 transition-colors" />
+						<Icon class="w-8 h-8 transition-colors" />
 					</div>
 					<h3
 						class="text-lg font-bold text-foreground mb-3 text-center group-hover:text-primary transition-colors"

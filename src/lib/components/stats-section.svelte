@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { TrendingUp, Users, Clock, ThumbsUp } from 'lucide-svelte';
 	import { t } from 'svelte-i18n';
 
 	let isVisible = $state(false);
-	let sectionRef;
+	let sectionRef: HTMLElement | undefined;
 	let countersStarted = $state(false);
 
 	const stats = [
@@ -70,6 +70,7 @@
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 		<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
 			{#each stats as stat, index}
+				{@const Icon = stat.icon}
 				<div
 					class="text-center p-8 rounded-3xl glass hover:glass-strong border border-white/5 transition-all duration-500 hover:-translate-y-2 {isVisible
 						? 'opacity-100 translate-y-0'
@@ -79,7 +80,7 @@
 					<div
 						class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform"
 					>
-						<svelte:component this={stat.icon} class="w-8 h-8 text-primary" />
+						<Icon class="w-8 h-8 text-primary" />
 					</div>
 					<div
 						class="text-5xl font-bold text-foreground mb-3 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-primary"
