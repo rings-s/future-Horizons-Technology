@@ -82,10 +82,10 @@
 					<!-- "Future" - Solid Heavy -->
 					<div class="overflow-visible">
 						<h1
-							class="font-black text-white transition-all
+							class="text-white transition-all
 							{$locale === 'ar'
-								? 'text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-normal scale-100'
-								: 'text-6xl sm:text-7xl lg:text-8xl xl:text-9xl tracking-tighter leading-[0.85]'}"
+								? 'font-extrabold text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-normal scale-100'
+								: 'font-black text-6xl sm:text-7xl lg:text-8xl xl:text-9xl tracking-tighter leading-[0.85]'}"
 						>
 							<span
 								class="block transform transition-transform duration-700 ease-out {mounted
@@ -100,10 +100,10 @@
 					<!-- "Horizons" - Outline & Gradient Hybrid -->
 					<div class="overflow-visible relative">
 						<h1
-							class="font-black transition-all pr-4
+							class="transition-all pr-4
 							{$locale === 'ar'
-								? 'text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-normal'
-								: 'text-6xl sm:text-7xl lg:text-8xl xl:text-9xl tracking-tighter leading-[0.85] italic'}"
+								? 'font-black text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-normal'
+								: 'font-black text-6xl sm:text-7xl lg:text-8xl xl:text-9xl tracking-tighter leading-[0.85] italic'}"
 						>
 							<span
 								class="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-primary bg-300% animate-gradient transform transition-transform duration-700 delay-100 ease-out {mounted
