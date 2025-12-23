@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './layout.css';
+	import '$lib/i18n';
 	import favicon from '$lib/assets/favicon.svg';
 	import { locale, t } from 'svelte-i18n';
 	import { page } from '$app/stores';
